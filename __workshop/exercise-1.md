@@ -17,3 +17,26 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+| endpoint               | method  | Description                                                   |
+| -----------------------| --------| --------------------------------------------------------------|
+| `/products`            | `GET`   | Retrieve list of all products                                 |
+| `/products/:id`        | `GET`   | Retrieve a specific product's info                            |
+| `/products`            | `POST`  | Create new product & add to list of existing products         |
+| `/products/:id`        | `PUT`   | Update/edit a specific product entirely (new object)          |
+| `/products/:id`        | `PATCH` | Update/edit part of a specific product                        |
+| `/products/:id`        | `DELETE`| Delete a specific product                                     |                      
+| `/clients`             | `GET`   | Retrieve list of all clients                                  |
+| `/clients/:id`         | `GET`   | Retrieve a specific client's profile                          |
+| `/clients`             | `POST`  | Create new client profile & add to list of existing clients   |
+| `/clients/:id`         | `PUT`   | Update/edit a specific client's profile entirely              |
+| `/clients/:id`         | `PATCH` | Update/edit part of a specific client's profile               |
+| `/clients/:id`         | `DELETE`| Delete a specific client profile                              |
+| `/reservations`        | `GET`   | Retrieve list of reservations                                 |
+| `/reservations/:id`    | `GET`   | Retrieve info about a specific reservation                    |
+| `/reservations`        | `POST`  | Create/add a new reservation                                  |
+| `/reservations/:id`    | `PUT`   | Update/edit a reservation entirely                            |
+| `/reservations/:id`    | `PATCH` | Update/edit part of a reservation                             |
+| `/reservations/:id`    | `DELETE`| Delete a reservation                                          |
+
+
